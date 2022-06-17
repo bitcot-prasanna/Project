@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qfv-FH-Shn">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PaginatedVC-->
+        <scene sceneID="2K4-3r-DDu">
+            <objects>
+                <viewController id="Qfv-FH-Shn" customClass="PaginatedVC" customModule="PaginationDummy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tpf-Tc-WcQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Jwk-7a-8pm">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="f1E-RS-JvY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jwk-7a-8pm" firstAttribute="top" secondItem="f1E-RS-JvY" secondAttribute="top" id="8Sz-MR-6gJ"/>
+                            <constraint firstItem="f1E-RS-JvY" firstAttribute="bottom" secondItem="Jwk-7a-8pm" secondAttribute="bottom" id="DgE-55-J2b"/>
+                            <constraint firstItem="Jwk-7a-8pm" firstAttribute="leading" secondItem="f1E-RS-JvY" secondAttribute="leading" id="Vkp-xO-qrd"/>
+                            <constraint firstItem="f1E-RS-JvY" firstAttribute="trailing" secondItem="Jwk-7a-8pm" secondAttribute="trailing" id="nJY-c4-atE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblPaginated" destination="Jwk-7a-8pm" id="g3e-As-rkx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rF7-bi-CzV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="70" y="86"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

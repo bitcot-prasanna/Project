@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEE4CB162849EF470062C5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE4CB152849EF470062C5AD /* AppDelegate.swift */; };
+		FEE4CB182849EF470062C5AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE4CB172849EF470062C5AD /* SceneDelegate.swift */; };
+		FEE4CB1A2849EF470062C5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE4CB192849EF470062C5AD /* ViewController.swift */; };
+		FEE4CB1D2849EF470062C5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE4CB1B2849EF470062C5AD /* Main.storyboard */; };
+		FEE4CB1F2849EF480062C5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE4CB1E2849EF480062C5AD /* Assets.xcassets */; };
+		FEE4CB222849EF480062C5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE4CB202849EF480062C5AD /* LaunchScreen.storyboard */; };
+		FEE4CB2D2849EF480062C5AD /* time_pickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE4CB2C2849EF480062C5AD /* time_pickerTests.swift */; };
+		FEE4CB372849EF480062C5AD /* time_pickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE4CB362849EF480062C5AD /* time_pickerUITests.swift */; };
+		FEE4CB392849EF480062C5AD /* time_pickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE4CB382849EF480062C5AD /* time_pickerUITestsLaunchTests.swift */; };
+		FEE4CB472849EF940062C5AD /* daysCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE4CB452849EF940062C5AD /* daysCell.swift */; };
+		FEE4CB482849EF940062C5AD /* daysCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE4CB462849EF940062C5AD /* daysCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEE4CB292849EF480062C5AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE4CB0A2849EF470062C5AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE4CB112849EF470062C5AD;
+			remoteInfo = "time-picker";
+		};
+		FEE4CB332849EF480062C5AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE4CB0A2849EF470062C5AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE4CB112849EF470062C5AD;
+			remoteInfo = "time-picker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEE4CB122849EF470062C5AD /* time-picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "time-picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE4CB152849EF470062C5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEE4CB172849EF470062C5AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEE4CB192849EF470062C5AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEE4CB1C2849EF470062C5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEE4CB1E2849EF480062C5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEE4CB212849EF480062C5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEE4CB232849EF480062C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE4CB282849EF480062C5AD /* time-pickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "time-pickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE4CB2C2849EF480062C5AD /* time_pickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_pickerTests.swift; sourceTree = "<group>"; };
+		FEE4CB322849EF480062C5AD /* time-pickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "time-pickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE4CB362849EF480062C5AD /* time_pickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_pickerUITests.swift; sourceTree = "<group>"; };
+		FEE4CB382849EF480062C5AD /* time_pickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_pickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEE4CB452849EF940062C5AD /* daysCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daysCell.swift; sourceTree = "<group>"; };
+		FEE4CB462849EF940062C5AD /* daysCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = daysCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE4CB0F2849EF470062C5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE4CB252849EF480062C5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE4CB2F2849EF480062C5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE4CB092849EF470062C5AD = {
+			isa = PBXGroup;
+			children = (
+				FEE4CB142849EF470062C5AD /* time-picker */,
+				FEE4CB2B2849EF480062C5AD /* time-pickerTests */,
+				FEE4CB352849EF480062C5AD /* time-pickerUITests */,
+				FEE4CB132849EF470062C5AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE4CB132849EF470062C5AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE4CB122849EF470062C5AD /* time-picker.app */,
+				FEE4CB282849EF480062C5AD /* time-pickerTests.xctest */,
+				FEE4CB322849EF480062C5AD /* time-pickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE4CB142849EF470062C5AD /* time-picker */ = {
+			isa = PBXGroup;
+			children = (
+				FEE4CB152849EF470062C5AD /* AppDelegate.swift */,
+				FEE4CB172849EF470062C5AD /* SceneDelegate.swift */,
+				FEE4CB192849EF470062C5AD /* ViewController.swift */,
+				FEE4CB1B2849EF470062C5AD /* Main.storyboard */,
+				FEE4CB1E2849EF480062C5AD /* Assets.xcassets */,
+				FEE4CB202849EF480062C5AD /* LaunchScreen.storyboard */,
+				FEE4CB232849EF480062C5AD /* Info.plist */,
+				FEE4CB452849EF940062C5AD /* daysCell.swift */,
+				FEE4CB462849EF940062C5AD /* daysCell.xib */,
+			);
+			path = "time-picker";
+			sourceTree = "<group>";
+		};
+		FEE4CB2B2849EF480062C5AD /* time-pickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE4CB2C2849EF480062C5AD /* time_pickerTests.swift */,
+			);
+			path = "time-pickerTests";
+			sourceTree = "<group>";
+		};
+		FEE4CB352849EF480062C5AD /* time-pickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE4CB362849EF480062C5AD /* time_pickerUITests.swift */,
+				FEE4CB382849EF480062C5AD /* time_pickerUITestsLaunchTests.swift */,
+			);
+			path = "time-pickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE4CB112849EF470062C5AD /* time-picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE4CB3C2849EF480062C5AD /* Build configuration list for PBXNativeTarget "time-picker" */;
+			buildPhases = (
+				FEE4CB0E2849EF470062C5AD /* Sources */,
+				FEE4CB0F2849EF470062C5AD /* Frameworks */,
+				FEE4CB102849EF470062C5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "time-picker";
+			productName = "time-picker";
+			productReference = FEE4CB122849EF470062C5AD /* time-picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEE4CB272849EF480062C5AD /* time-pickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE4CB3F2849EF480062C5AD /* Build configuration list for PBXNativeTarget "time-pickerTests" */;
+			buildPhases = (
+				FEE4CB242849EF480062C5AD /* Sources */,
+				FEE4CB252849EF480062C5AD /* Frameworks */,
+				FEE4CB262849EF480062C5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE4CB2A2849EF480062C5AD /* PBXTargetDependency */,
+			);
+			name = "time-pickerTests";
+			productName = "time-pickerTests";
+			productReference = FEE4CB282849EF480062C5AD /* time-pickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEE4CB312849EF480062C5AD /* time-pickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE4CB422849EF480062C5AD /* Build configuration list for PBXNativeTarget "time-pickerUITests" */;
+			buildPhases = (
+				FEE4CB2E2849EF480062C5AD /* Sources */,
+				FEE4CB2F2849EF480062C5AD /* Frameworks */,
+				FEE4CB302849EF480062C5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE4CB342849EF480062C5AD /* PBXTargetDependency */,
+			);
+			name = "time-pickerUITests";
+			productName = "time-pickerUITests";
+			productReference = FEE4CB322849EF480062C5AD /* time-pickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE4CB0A2849EF470062C5AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FEE4CB112849EF470062C5AD = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					FEE4CB272849EF480062C5AD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = FEE4CB112849EF470062C5AD;
+					};
+					FEE4CB312849EF480062C5AD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = FEE4CB112849EF470062C5AD;
+					};
+				};
+			};
+			buildConfigurationList = FEE4CB0D2849EF470062C5AD /* Build configuration list for PBXProject "time-picker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEE4CB092849EF470062C5AD;
+			productRefGroup = FEE4CB132849EF470062C5AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE4CB112849EF470062C5AD /* time-picker */,
+				FEE4CB272849EF480062C5AD /* time-pickerTests */,
+				FEE4CB312849EF480062C5AD /* time-pickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEE4CB102849EF470062C5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE4CB222849EF480062C5AD /* LaunchScreen.storyboard in Resources */,
+				FEE4CB1F2849EF480062C5AD /* Assets.xcassets in Resources */,
+				FEE4CB482849EF940062C5AD /* daysCell.xib in Resources */,
+				FEE4CB1D2849EF470062C5AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE4CB262849EF480062C5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE4CB302849EF480062C5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE4CB0E2849EF470062C5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE4CB1A2849EF470062C5AD /* ViewController.swift in Sources */,
+				FEE4CB162849EF470062C5AD /* AppDelegate.swift in Sources */,
+				FEE4CB472849EF940062C5AD /* daysCell.swift in Sources */,
+				FEE4CB182849EF470062C5AD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE4CB242849EF480062C5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE4CB2D2849EF480062C5AD /* time_pickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE4CB2E2849EF480062C5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE4CB372849EF480062C5AD /* time_pickerUITests.swift in Sources */,
+				FEE4CB392849EF480062C5AD /* time_pickerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEE4CB2A2849EF480062C5AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE4CB112849EF470062C5AD /* time-picker */;
+			targetProxy = FEE4CB292849EF480062C5AD /* PBXContainerItemProxy */;
+		};
+		FEE4CB342849EF480062C5AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE4CB112849EF470062C5AD /* time-picker */;
+			targetProxy = FEE4CB332849EF480062C5AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEE4CB1B2849EF470062C5AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE4CB1C2849EF470062C5AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEE4CB202849EF480062C5AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE4CB212849EF480062C5AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEE4CB3A2849EF480062C5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEE4CB3B2849EF480062C5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEE4CB3D2849EF480062C5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "time-picker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.joshi.time-picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEE4CB3E2849EF480062C5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "time-picker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.joshi.time-picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEE4CB402849EF480062C5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.joshi.time-pickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/time-picker.app/time-picker";
+			};
+			name = Debug;
+		};
+		FEE4CB412849EF480062C5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.joshi.time-pickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/time-picker.app/time-picker";
+			};
+			name = Release;
+		};
+		FEE4CB432849EF480062C5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.joshi.time-pickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "time-picker";
+			};
+			name = Debug;
+		};
+		FEE4CB442849EF480062C5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.joshi.time-pickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "time-picker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE4CB0D2849EF470062C5AD /* Build configuration list for PBXProject "time-picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE4CB3A2849EF480062C5AD /* Debug */,
+				FEE4CB3B2849EF480062C5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE4CB3C2849EF480062C5AD /* Build configuration list for PBXNativeTarget "time-picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE4CB3D2849EF480062C5AD /* Debug */,
+				FEE4CB3E2849EF480062C5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE4CB3F2849EF480062C5AD /* Build configuration list for PBXNativeTarget "time-pickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE4CB402849EF480062C5AD /* Debug */,
+				FEE4CB412849EF480062C5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE4CB422849EF480062C5AD /* Build configuration list for PBXNativeTarget "time-pickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE4CB432849EF480062C5AD /* Debug */,
+				FEE4CB442849EF480062C5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE4CB0A2849EF470062C5AD /* Project object */;
+}

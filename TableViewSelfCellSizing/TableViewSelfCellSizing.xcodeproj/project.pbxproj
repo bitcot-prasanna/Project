@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEFC7F022837BD0700A4EF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC7F012837BD0700A4EF92 /* AppDelegate.swift */; };
+		FEFC7F042837BD0700A4EF92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC7F032837BD0700A4EF92 /* SceneDelegate.swift */; };
+		FEFC7F062837BD0700A4EF92 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC7F052837BD0700A4EF92 /* HomeVC.swift */; };
+		FEFC7F092837BD0700A4EF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFC7F072837BD0700A4EF92 /* Main.storyboard */; };
+		FEFC7F0B2837BD0800A4EF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFC7F0A2837BD0800A4EF92 /* Assets.xcassets */; };
+		FEFC7F0E2837BD0800A4EF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFC7F0C2837BD0800A4EF92 /* LaunchScreen.storyboard */; };
+		FEFC7F192837BD0800A4EF92 /* TableViewSelfCellSizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC7F182837BD0800A4EF92 /* TableViewSelfCellSizingTests.swift */; };
+		FEFC7F232837BD0800A4EF92 /* TableViewSelfCellSizingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC7F222837BD0800A4EF92 /* TableViewSelfCellSizingUITests.swift */; };
+		FEFC7F252837BD0800A4EF92 /* TableViewSelfCellSizingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC7F242837BD0800A4EF92 /* TableViewSelfCellSizingUITestsLaunchTests.swift */; };
+		FEFC7F372837BDDE00A4EF92 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFC7F352837BDDE00A4EF92 /* DataCell.swift */; };
+		FEFC7F382837BDDE00A4EF92 /* DataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEFC7F362837BDDE00A4EF92 /* DataCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEFC7F152837BD0800A4EF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFC7EF62837BD0700A4EF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFC7EFD2837BD0700A4EF92;
+			remoteInfo = TableViewSelfCellSizing;
+		};
+		FEFC7F1F2837BD0800A4EF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFC7EF62837BD0700A4EF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFC7EFD2837BD0700A4EF92;
+			remoteInfo = TableViewSelfCellSizing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEFC7EFE2837BD0700A4EF92 /* TableViewSelfCellSizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewSelfCellSizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFC7F012837BD0700A4EF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEFC7F032837BD0700A4EF92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEFC7F052837BD0700A4EF92 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FEFC7F082837BD0700A4EF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEFC7F0A2837BD0800A4EF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEFC7F0D2837BD0800A4EF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEFC7F0F2837BD0800A4EF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFC7F142837BD0800A4EF92 /* TableViewSelfCellSizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewSelfCellSizingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFC7F182837BD0800A4EF92 /* TableViewSelfCellSizingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSelfCellSizingTests.swift; sourceTree = "<group>"; };
+		FEFC7F1E2837BD0800A4EF92 /* TableViewSelfCellSizingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewSelfCellSizingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFC7F222837BD0800A4EF92 /* TableViewSelfCellSizingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSelfCellSizingUITests.swift; sourceTree = "<group>"; };
+		FEFC7F242837BD0800A4EF92 /* TableViewSelfCellSizingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSelfCellSizingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEFC7F352837BDDE00A4EF92 /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		FEFC7F362837BDDE00A4EF92 /* DataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEFC7EFB2837BD0700A4EF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC7F112837BD0800A4EF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC7F1B2837BD0800A4EF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEFC7EF52837BD0700A4EF92 = {
+			isa = PBXGroup;
+			children = (
+				FEFC7F002837BD0700A4EF92 /* TableViewSelfCellSizing */,
+				FEFC7F172837BD0800A4EF92 /* TableViewSelfCellSizingTests */,
+				FEFC7F212837BD0800A4EF92 /* TableViewSelfCellSizingUITests */,
+				FEFC7EFF2837BD0700A4EF92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEFC7EFF2837BD0700A4EF92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC7EFE2837BD0700A4EF92 /* TableViewSelfCellSizing.app */,
+				FEFC7F142837BD0800A4EF92 /* TableViewSelfCellSizingTests.xctest */,
+				FEFC7F1E2837BD0800A4EF92 /* TableViewSelfCellSizingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEFC7F002837BD0700A4EF92 /* TableViewSelfCellSizing */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC7F332837BD3800A4EF92 /* View */,
+				FEFC7F322837BD3100A4EF92 /* Controller */,
+				FEFC7F312837BD1300A4EF92 /* Delegate */,
+				FEFC7F0A2837BD0800A4EF92 /* Assets.xcassets */,
+				FEFC7F0C2837BD0800A4EF92 /* LaunchScreen.storyboard */,
+				FEFC7F0F2837BD0800A4EF92 /* Info.plist */,
+			);
+			path = TableViewSelfCellSizing;
+			sourceTree = "<group>";
+		};
+		FEFC7F172837BD0800A4EF92 /* TableViewSelfCellSizingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC7F182837BD0800A4EF92 /* TableViewSelfCellSizingTests.swift */,
+			);
+			path = TableViewSelfCellSizingTests;
+			sourceTree = "<group>";
+		};
+		FEFC7F212837BD0800A4EF92 /* TableViewSelfCellSizingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC7F222837BD0800A4EF92 /* TableViewSelfCellSizingUITests.swift */,
+				FEFC7F242837BD0800A4EF92 /* TableViewSelfCellSizingUITestsLaunchTests.swift */,
+			);
+			path = TableViewSelfCellSizingUITests;
+			sourceTree = "<group>";
+		};
+		FEFC7F312837BD1300A4EF92 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC7F012837BD0700A4EF92 /* AppDelegate.swift */,
+				FEFC7F032837BD0700A4EF92 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FEFC7F322837BD3100A4EF92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC7F052837BD0700A4EF92 /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FEFC7F332837BD3800A4EF92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC7F072837BD0700A4EF92 /* Main.storyboard */,
+				FEFC7F342837BDB600A4EF92 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEFC7F342837BDB600A4EF92 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FEFC7F352837BDDE00A4EF92 /* DataCell.swift */,
+				FEFC7F362837BDDE00A4EF92 /* DataCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEFC7EFD2837BD0700A4EF92 /* TableViewSelfCellSizing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFC7F282837BD0800A4EF92 /* Build configuration list for PBXNativeTarget "TableViewSelfCellSizing" */;
+			buildPhases = (
+				FEFC7EFA2837BD0700A4EF92 /* Sources */,
+				FEFC7EFB2837BD0700A4EF92 /* Frameworks */,
+				FEFC7EFC2837BD0700A4EF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewSelfCellSizing;
+			productName = TableViewSelfCellSizing;
+			productReference = FEFC7EFE2837BD0700A4EF92 /* TableViewSelfCellSizing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEFC7F132837BD0800A4EF92 /* TableViewSelfCellSizingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFC7F2B2837BD0800A4EF92 /* Build configuration list for PBXNativeTarget "TableViewSelfCellSizingTests" */;
+			buildPhases = (
+				FEFC7F102837BD0800A4EF92 /* Sources */,
+				FEFC7F112837BD0800A4EF92 /* Frameworks */,
+				FEFC7F122837BD0800A4EF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFC7F162837BD0800A4EF92 /* PBXTargetDependency */,
+			);
+			name = TableViewSelfCellSizingTests;
+			productName = TableViewSelfCellSizingTests;
+			productReference = FEFC7F142837BD0800A4EF92 /* TableViewSelfCellSizingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEFC7F1D2837BD0800A4EF92 /* TableViewSelfCellSizingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFC7F2E2837BD0800A4EF92 /* Build configuration list for PBXNativeTarget "TableViewSelfCellSizingUITests" */;
+			buildPhases = (
+				FEFC7F1A2837BD0800A4EF92 /* Sources */,
+				FEFC7F1B2837BD0800A4EF92 /* Frameworks */,
+				FEFC7F1C2837BD0800A4EF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFC7F202837BD0800A4EF92 /* PBXTargetDependency */,
+			);
+			name = TableViewSelfCellSizingUITests;
+			productName = TableViewSelfCellSizingUITests;
+			productReference = FEFC7F1E2837BD0800A4EF92 /* TableViewSelfCellSizingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEFC7EF62837BD0700A4EF92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FEFC7EFD2837BD0700A4EF92 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					FEFC7F132837BD0800A4EF92 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = FEFC7EFD2837BD0700A4EF92;
+					};
+					FEFC7F1D2837BD0800A4EF92 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = FEFC7EFD2837BD0700A4EF92;
+					};
+				};
+			};
+			buildConfigurationList = FEFC7EF92837BD0700A4EF92 /* Build configuration list for PBXProject "TableViewSelfCellSizing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEFC7EF52837BD0700A4EF92;
+			productRefGroup = FEFC7EFF2837BD0700A4EF92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEFC7EFD2837BD0700A4EF92 /* TableViewSelfCellSizing */,
+				FEFC7F132837BD0800A4EF92 /* TableViewSelfCellSizingTests */,
+				FEFC7F1D2837BD0800A4EF92 /* TableViewSelfCellSizingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEFC7EFC2837BD0700A4EF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFC7F0E2837BD0800A4EF92 /* LaunchScreen.storyboard in Resources */,
+				FEFC7F0B2837BD0800A4EF92 /* Assets.xcassets in Resources */,
+				FEFC7F092837BD0700A4EF92 /* Main.storyboard in Resources */,
+				FEFC7F382837BDDE00A4EF92 /* DataCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC7F122837BD0800A4EF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC7F1C2837BD0800A4EF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEFC7EFA2837BD0700A4EF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFC7F062837BD0700A4EF92 /* HomeVC.swift in Sources */,
+				FEFC7F022837BD0700A4EF92 /* AppDelegate.swift in Sources */,
+				FEFC7F042837BD0700A4EF92 /* SceneDelegate.swift in Sources */,
+				FEFC7F372837BDDE00A4EF92 /* DataCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC7F102837BD0800A4EF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFC7F192837BD0800A4EF92 /* TableViewSelfCellSizingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFC7F1A2837BD0800A4EF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFC7F252837BD0800A4EF92 /* TableViewSelfCellSizingUITestsLaunchTests.swift in Sources */,
+				FEFC7F232837BD0800A4EF92 /* TableViewSelfCellSizingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEFC7F162837BD0800A4EF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEFC7EFD2837BD0700A4EF92 /* TableViewSelfCellSizing */;
+			targetProxy = FEFC7F152837BD0800A4EF92 /* PBXContainerItemProxy */;
+		};
+		FEFC7F202837BD0800A4EF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEFC7EFD2837BD0700A4EF92 /* TableViewSelfCellSizing */;
+			targetProxy = FEFC7F1F2837BD0800A4EF92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEFC7F072837BD0700A4EF92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFC7F082837BD0700A4EF92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEFC7F0C2837BD0800A4EF92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFC7F0D2837BD0800A4EF92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEFC7F262837BD0800A4EF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEFC7F272837BD0800A4EF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEFC7F292837BD0800A4EF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableViewSelfCellSizing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.joshi.TableViewSelfCellSizing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEFC7F2A2837BD0800A4EF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableViewSelfCellSizing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.joshi.TableViewSelfCellSizing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEFC7F2C2837BD0800A4EF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.joshi.TableViewSelfCellSizingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewSelfCellSizing.app/TableViewSelfCellSizing";
+			};
+			name = Debug;
+		};
+		FEFC7F2D2837BD0800A4EF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.joshi.TableViewSelfCellSizingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewSelfCellSizing.app/TableViewSelfCellSizing";
+			};
+			name = Release;
+		};
+		FEFC7F2F2837BD0800A4EF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.joshi.TableViewSelfCellSizingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableViewSelfCellSizing;
+			};
+			name = Debug;
+		};
+		FEFC7F302837BD0800A4EF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N92M6695XH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.joshi.TableViewSelfCellSizingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableViewSelfCellSizing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEFC7EF92837BD0700A4EF92 /* Build configuration list for PBXProject "TableViewSelfCellSizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC7F262837BD0800A4EF92 /* Debug */,
+				FEFC7F272837BD0800A4EF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFC7F282837BD0800A4EF92 /* Build configuration list for PBXNativeTarget "TableViewSelfCellSizing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC7F292837BD0800A4EF92 /* Debug */,
+				FEFC7F2A2837BD0800A4EF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFC7F2B2837BD0800A4EF92 /* Build configuration list for PBXNativeTarget "TableViewSelfCellSizingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC7F2C2837BD0800A4EF92 /* Debug */,
+				FEFC7F2D2837BD0800A4EF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFC7F2E2837BD0800A4EF92 /* Build configuration list for PBXNativeTarget "TableViewSelfCellSizingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFC7F2F2837BD0800A4EF92 /* Debug */,
+				FEFC7F302837BD0800A4EF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEFC7EF62837BD0700A4EF92 /* Project object */;
+}

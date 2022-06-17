@@ -1,0 +1,16 @@
+PODS:
+  - EmptyStateKit (1.1.0)
+
+DEPENDENCIES:
+  - EmptyStateKit
+
+SPEC REPOS:
+  trunk:
+    - EmptyStateKit
+
+SPEC CHECKSUMS:
+  EmptyStateKit: dc41e9ce5c6089f67a49d063bce73ade9f2ba73f
+
+PODFILE CHECKSUM: 0d07cc52793b9c434160c468b264ece2a3aae93c
+
+COCOAPODS: 1.11.3

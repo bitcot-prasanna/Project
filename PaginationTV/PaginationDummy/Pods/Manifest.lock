@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.6.1)
+  - PaginatedTableView (1.0.1)
+  - SDWebImage (5.9.1):
+    - SDWebImage/Core (= 5.9.1)
+  - SDWebImage/Core (5.9.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - PaginatedTableView
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - PaginatedTableView
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  PaginatedTableView: 294d9831d5ddf5c0dcfbb4a281d4fcfb8d12f55a
+  SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
+
+PODFILE CHECKSUM: fe868a2de9c0ef235c4e6f7c89241c1add967f7a
+
+COCOAPODS: 1.11.3

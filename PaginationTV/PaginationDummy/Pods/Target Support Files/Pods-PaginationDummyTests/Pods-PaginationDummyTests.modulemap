@@ -1,0 +1,6 @@
+framework module Pods_PaginationDummyTests {
+  umbrella header "Pods-PaginationDummyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
